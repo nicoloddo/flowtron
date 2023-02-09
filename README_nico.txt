@@ -1,0 +1,6 @@
+python inference.py -c config.json -f models/flowtron_ljs.pt -w models/waveglow_256channels_v4.pt -t "It is well know that deep generative models have a rich latent space!" -i 0
+
+This is the command reported on flowtron github, but the waveglow model you have is different.
+New command:
+
+python inference.py -c config.json -f models/flowtron_ljs.pt -w models/waveglow_256channels_v4.pt -t "It is well know that deep generative models have a rich latent space!" -i 0
