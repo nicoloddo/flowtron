@@ -5,6 +5,7 @@
 It is introduced by Nicolò Loddo to try and sinthesize spontaneous speech with breathing noises.
 The main changes are in the text/cmudict.py file where the phonemes are added.
 Include the new phonemes inside curly brackets inside the transcription to be considered as ARPABET phonemes.
+
 E.G.: 
 1. {breath} i {disfl.uh} hope to stay in london {breath}
 2. {disfl.oh} i will never forget his face {breath} {disfl.ooh} {breath} rah {laughter}
