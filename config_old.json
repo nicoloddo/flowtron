@@ -24,8 +24,8 @@
         "ctc_loss_start_iter": 10000
     },
     "data_config": {
-        "training_files":"filelists/IEMOCAP_INTERSPEECH_filelist_train.txt",
-        "validation_files":"filelists/IEMOCAP_INTERSPEECH_filelist_val.txt",
+        "training_files": "filelists/ljs_audiopaths_text_sid_train_filelist.txt",
+        "validation_files": "filelists/ljs_audiopaths_text_sid_val_filelist.txt",
         "text_cleaners": ["flowtron_cleaners"],
         "p_arpabet": 0.5,
         "cmudict_path": "data/cmudict_dictionary",
@@ -47,7 +47,7 @@
         "dist_url": "tcp://localhost:54321"
     },
     "model_config": {
-        "n_speakers": 9,
+        "n_speakers": 1,
         "n_speaker_dim": 128,
         "n_text": 185,
         "n_text_dim": 512,

@@ -13,6 +13,50 @@ valid_symbols = [
   'UW0', 'UW1', 'UW2', 'V', 'W', 'Y', 'Z', 'ZH'
 ]
 
+disfluency_dict = {
+    "ah" : 'disfl.ah', 
+    "ahh" : 'disfl.ahh',
+    "eh" : 'disfl.eh',
+    "eeh" : 'disfl.eeh',
+    "ehh" : 'disfl.eh',
+    "um" : 'disfl.um',
+    "hum" : 'disfl.um',
+    "mm" : 'disfl.um', 
+    "hmm" : 'disfl.um',
+    "uhm" : 'disfl.um',
+    "uh" : 'disfl.uh',
+    "uhh" : 'disfl.uh',
+    "oh" : 'disfl.oh', 
+    "ooh" : 'disfl.ooh',
+    "oo" : 'disfl.ooh',
+    "ohh" : 'disfl.ooh',
+    "er" : 'disfl.er',  
+    "huh" : 'disfl.huh',
+    "mhm" : 'disfl.mhm',
+    "mmhmm" : 'disfl.mhm',
+    "uhuh" : 'disfl.mhm',
+    "uh-huh" : 'disfl.mhm',
+    "shh" : 'disfl.shh',
+    "erm" : 'disfl.erm', 
+    "ehm" : 'disfl.ehm', 
+    "oops" : 'disfl.oops', 
+    "phew" : 'disfl.phew',
+    "psst" : 'disfl.psst',
+    "yoo-hoo" : 'disfl.yoo-hoo', 
+    "yikes" : 'disfl.yikes',
+    "ouch" : 'disfl.ouch',
+    "tsk" : 'disfl.tsk',
+    "tsk-tsk" : 'disfl.tsk', 
+    "uh-oh" : 'disfl.uh-oh', 
+    "ahem" : 'disfl.ahem',
+    "argh" : 'disfl.argh', 
+    "urgh" : 'disfl.urgh',
+}
+disfluencies = list(set(disfluency_dict.values()))
+other_tags = ['breath', 'breathing', 'laughter', 'garbage', 'lipsmack']
+
+valid_symbols = valid_symbols + disfluencies + other_tags
+
 _valid_symbol_set = set(valid_symbols)
 
 

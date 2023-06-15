@@ -1,5 +1,14 @@
 ![Flowtron](https://nv-adlr.github.io/images/flowtron_logo.png "Flowtron")
 
+
+## This Flowtron version includes new phonemes for disfluencies, breathing and other human noises.
+It is introduced by Nicolò Loddo to try and sinthesize spontaneous speech with breathing noises.
+The main changes are in the text/cmudict.py file where the phonemes are added.
+Include the new phonemes inside curly brackets inside the transcription to be considered as ARPABET phonemes.
+E.G.: 
+1. {breath} i {disfl.uh} hope to stay in london {breath}
+2. {disfl.oh} i will never forget his face {breath} {disfl.ooh} {breath} rah {laughter}
+
 ## Flowtron: an Autoregressive Flow-based Network for Text-to-Mel-spectrogram Synthesis
 
 ### Rafael Valle, Kevin Shih, Ryan Prenger and Bryan Catanzaro
