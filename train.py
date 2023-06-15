@@ -37,7 +37,7 @@ from torch.utils.data.distributed import DistributedSampler
 
 
 # to make cuda synchronous during debugging. Comment it to run the training.
-#os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
+os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
 
 def update_params(config, params):
     for param in params:
