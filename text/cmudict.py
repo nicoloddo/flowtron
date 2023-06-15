@@ -55,6 +55,8 @@ disfluency_dict = {
 disfluencies = list(set(disfluency_dict.values()))
 other_tags = ['breath', 'breathing', 'laughter', 'garbage', 'lipsmack']
 
+# In total we are adding 30 symbols: remember to add 30 to the n_text in config as we are changing the number of unique tokens from which we create embeddings.
+
 valid_symbols = valid_symbols + disfluencies + other_tags
 
 _valid_symbol_set = set(valid_symbols)
