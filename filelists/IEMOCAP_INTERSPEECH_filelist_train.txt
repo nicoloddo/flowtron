@@ -8282,7 +8282,6 @@
 ../data/IEMOCAPSes04M_impro05_F030.wav|{breath} and your bag is not my concern the fifty dollars i'm going to give you for your bag is really all i'm concerned with|1
 ../data/INTERSPEECH/test_00_149-159.wav|{breath} with some challenging widening participation and student achievement issues {breath}|0
 ../data/IEMOCAPSes01M_impro07_M029.wav|that kind {breath} of they're okay {breath} no i'm like i'm kind of like the odd man out i'm like|0
-
 ../data/IEMOCAPSes04M_impro01_F006.wav|nope i don't i don't have or i can't go behind there you can go behind this person's desk and just grab the form so if you could just do that {breath} that would help me out a lot {breath}|1
 ../data/IEMOCAPSes01M_script01_2_M006.wav|{breath} listen line you can't read her mind|1
 ../data/IEMOCAPSes05F_script01_1_M018.wav|{breath} i'm going to ask her to marry me {breath}|0
