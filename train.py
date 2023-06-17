@@ -382,7 +382,7 @@ def train(n_gpus, rank, output_directory, epochs, optim_algo, learning_rate,
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-c', '--config', type=str,
+    parser.add_argument('-c', '--config', type=str, default='config.json',
                         help='JSON file for configuration')
     parser.add_argument('-p', '--params', nargs='+', default=[])
     args = parser.parse_args()
