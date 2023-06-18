@@ -362,7 +362,7 @@ def train(n_gpus, rank, output_directory, epochs, optim_algo, learning_rate,
                 (val_loss, val_loss_nll, val_loss_gate, val_loss_ctc,
                     attns, gate_pred, gate_target) = \
                     compute_validation_loss(model, criterion, valset,
-                                            batch_size = 1, n_gpus, apply_ctc)
+                                            1, n_gpus, apply_ctc) # validation batch size set to 1
                 if rank == 0:
                     print("Validation loss {}: {:9f}  ".format(
                         iteration, val_loss))
