@@ -4,3 +4,8 @@ This is the command reported on flowtron github, but the waveglow model you have
 New command:
 
 python inference.py -c config.json -f models/flowtron_ljs.pt -w models/waveglow_256channels_v4.pt -t "It is well know that deep generative models have a rich latent space!" -i 0
+
+
+python inference.py -c config.json -f ../Models/model_0 -w models/waveglow_256channels_v4.pt -t "It is well know that deep generative models have a rich latent space!" -i 0
+
+python inference.py -c config.json -f psyche_output/model_16000 -w ../waveglow_256channels_v4.pt -t "Hello man {breath} did you even know that {breath} you have a rich latent space" -i 0
